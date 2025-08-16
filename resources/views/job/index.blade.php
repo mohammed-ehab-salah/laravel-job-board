@@ -5,6 +5,7 @@
     @foreach ($jobs as $job)
         <div>
             the job is
+            
             {{ $job['title'] }}
             <br> salary is
             {{ $job['salary'] }}
